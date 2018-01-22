@@ -1,0 +1,47 @@
+#all{
+	font-family: Coustard, sans-serif, "Times New Roman", Times, serif;
+	margin-top: 3%;
+}
+
+#content {
+	margin-top: 60px;
+	margin-left: 12px;
+}
+
+#title {
+	font-size: 50px;
+	color : #045;
+	text-align: center;
+}
+
+#dis {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 40px;
+	margin-right: 15px;
+	font-family: "Indie Flower", sans-serif, "Times New Roman", Times, serif;
+}
+
+.button {
+	width: 200px;
+	margin-top: 20px;
+	border: 3px solid orange;
+	color: #045;
+	font-weight: bold;
+	padding:5px;
+	text-align: center;
+	background-color: white;
+	font-family: Coustard, sans-serif, "Times New Roman", Times, serif;
+}
+
+#button:hover {
+	cursor: pointer;
+}
+
+#inputInfo, #radioInfo {
+	color: red;
+}
+
+#quit, #genNew {
+	display: none;
+}
